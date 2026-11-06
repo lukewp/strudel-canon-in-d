@@ -1,6 +1,8 @@
 # How it was built
 
-This started after a live-coded set at the Broncode Festival (KB, The Hague, October 2026), where the music was played by commenting and uncommenting lines of prepared code. The first version of this Canon worked the same way: every voice was a labelled line, and a leading `_` muted it. It was fun to play and easy to fumble. A voice muted mid-phrase stopped mid-phrase; a voice brought in came in wherever the cycle happened to be; there was no way to move the whole piece on at once; and with nothing between the voices and the speakers, a few loud lines together clipped.
+This started after Luke took in a live-coded set at the Broncode Festival (KB, The Hague, October 2026), where Luke watched DJ Den Ree ([https://github.com/Den-Ree](https://github.com/Den-Ree)) perform by commenting and uncommenting lines of prepared code. The first version of this Canon worked the same way: every voice was a labelled line, and a leading `_` muted it. It was fun to play and easy to fumble. A voice muted mid-phrase stopped mid-phrase; a voice brought in came in wherever the cycle happened to be; there was no way to move the whole piece on at once; and with nothing between the voices and the speakers, a few loud lines together clipped.
+
+Luke also felt a mild challenge to build something benignly provocative with AI that could be considered both music and art -- a perfectable skill that yields enjoyment for the practitioner and an audience. But "AI music" that's wholly different from a Suno track.
 
 The rest of this page is how it turned into what's in this repository: a design, a machinery written test-first, a transcription checked note by note, and a run of bugs that only showed up when it was played for real.
 
