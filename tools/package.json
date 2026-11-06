@@ -1,0 +1,17 @@
+{
+  "name": "strudel-canon-in-d-tools",
+  "license": "AGPL-3.0-or-later",
+  "private": true,
+  "type": "module",
+  "description": "Offline checks and tests for the pattern files: evaluates them with Strudel's own transpiler and engine, no audio.",
+  "scripts": {
+    "check": "node check.mjs",
+    "test": "node --test *.test.mjs"
+  },
+  "dependencies": {
+    "@strudel/core": "1.2.6",
+    "@strudel/mini": "1.2.6",
+    "@strudel/tonal": "1.2.6",
+    "@strudel/transpiler": "1.2.6"
+  }
+}

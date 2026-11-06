@@ -1,0 +1,5 @@
+# Tempo changes: stretch the music within a piece, ramp the clock between pieces
+
+Strudel's tempo (`setcpm`) is one global clock that changes instantly. Within a piece, ritardandos and accelerandos stretch the music's timing instead of touching the clock, measured in beats, so a re-run of the file can never snap the tempo mid-ramp and a ramp always ends where the phrase does. Between pieces, the clock itself ramps: each piece declares the tempo it arrives at rather than setting it, so its first run ramps from the outgoing piece's tempo and later re-runs find it already there and change nothing. When two pieces' tempos or keys are too far apart for any ramp, an interlude (riser, impact, a moment of silence) covers the jump instead.
+
+**Status (machinery v3):** the clock ramp between pieces isn't built. The piece that starts a set sets the clock; each piece after it is stretched to its own tempo against that clock (counting its own beats per cycle), so it arrives at its tempo at once rather than ramping there. An interlude covers the jumps that would sound abrupt.

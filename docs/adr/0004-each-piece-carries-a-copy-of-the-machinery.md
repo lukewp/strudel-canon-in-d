@@ -1,0 +1,3 @@
+# Each piece carries its own copy of the machinery
+
+The section switcher, handovers, variants, tempo ramps, slip warnings and master fader are copied into every piece, between `// #region machinery vN` and `// #endregion` markers below the control panel, rather than shared. Strudel VS can't import one file into another, and loading the machinery once from a kit file at the start of a set would make every piece depend on it: forget it, or restart the Strudel panel mid-set, and nothing plays. A copy keeps every file standalone. The template holds the canonical copy, the checker flags any piece whose copy differs, and the region markers (which Strudel VS folds) hide the whole block in one click.

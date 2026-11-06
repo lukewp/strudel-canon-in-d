@@ -1,0 +1,5 @@
+# A file is a piece; a set hands over from one file to the next
+
+Live-coded electronic sets are usually one big file. Here each piece is its own file, playable alone, and a set is performed by running the next piece's file: the handover carries the outgoing piece's voices to their exit points and brings the new piece's voices in at their entry points. We chose this to keep every piece's control panel to one screen and every piece rehearsable on its own, and because Strudel VS cannot import one file into another but runs every file in the same long-lived Strudel page, so handover state can carry across files.
+
+**Status:** accepted. The two-file test passed in Strudel VS 2.1.0 on 2026-11-03: Canon in D, then the interlude run from its own file; the Canon played to its exit point and the interlude followed. (The fallback, had it failed, was a set file generated from the pieces by a build step (rejected for now because live edits to a generated file are lost on the next build, and its control panel would outgrow one screen).)
