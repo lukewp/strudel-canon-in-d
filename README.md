@@ -98,4 +98,5 @@ The checker lists every voice and variant with its notes, range and sounds, and 
 - **Matmati's engraving** (`IMSLP452042…pdf`): © 2016 Jawher Matmati, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), included unmodified.
 - **Arrangement, riser, machinery and tools:** Luke Peterson, built with [Claude Code](https://claude.com/claude-code). [AGPL-3.0-or-later](LICENSE), the same as Strudel; the music and the scores in `research/` keep their own terms, listed here.
 - **The video:** Luke Peterson, *strudel-pachelbel*, [Vimeo](https://vimeo.com/1243772078), 2026.
+- **Inspiration:** the live-coded A/V set by NDA/ (Niki Scheijen and [Den Ree](https://github.com/den-ree)) at the Broncode Festival, KB, The Hague, 29 October 2026.
 - **Strudel** is by the Strudel contributors, [AGPL-3.0](https://codeberg.org/uzu/strudel). Strudel VS is by cmillsdev.
